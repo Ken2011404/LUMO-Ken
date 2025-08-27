@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>account</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="position-relative wrapper">
+      <div class="app-wrapper bg-dase bg-base">
+        <div class="px-5 py-8">
+          <section>
+            <button
+              type="button"
+              class="btn border-0 p-0 d-flex justify-content-start my-3"
+            >
+              <img
+                src="../../assets/images/08-icon/State=Default, icon=left.svg"
+                alt=""
+              />
+            </button>
+          </section>
+          <section class="pt-6 text-center mb-391">
+            <h1 class="fs-4 mb-3">使用手機號碼登入</h1>
+            <p class="small mb-6">請輸入您的登入資料</p>
+
+            <div class="input-group mb-6 w-100">
+              <!-- <select id="country" name="country">
+                <option value="taiwan">台灣</option>
+                <option value="japan">日本</option>
+                <option value="usa">美國</option>
+              </select> -->
+              <button
+                class="btn btn-outline-secondary-900 text-primary-300 btn-border border-end-0 pe-0"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span
+                  >+886
+                  <span
+                    class="material-icons-outlined align-bottom pe-3 border-end text-primary-300 border-primary-300"
+                  >
+                    arrow_drop_down
+                  </span></span
+                >
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">+886</a></li>
+                <li><a class="dropdown-item" href="#">+86</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">+123</a>
+                </li>
+                <li><a class="dropdown-item" href="#">+456</a></li>
+              </ul>
+              <input
+                type="text"
+                class="form-control btn-border border-start-0 text-primary-100 ps-4"
+                placeholder="請輸入手機號碼"
+                value="0900 000 000"
+                ******
+                aria-label="phone"
+                required
+              />
+            </div>
+            <div class="position-relative">
+              <input
+                type="text"
+                class="form-control btn-border text-primary-100"
+                placeholder="請輸入密碼"
+                value="******"
+                aria-label="password"
+                required
+              />
+              <img
+                src="/assets/images/08-icon/State=Default, icon=eyeoff.svg"
+                alt="eyeoff"
+                class="position-absolute top-50 end-0 translate-middle-y me-5"
+              />
+            </div>
+          </section>
+          <a
+            href="#"
+            type="button"
+            class="text-primary-50 text-center w-100 rounded-pill py-3 mb-6 shadow bg-btn"
+            disabled
+            >繼續</a
+          >
+        </div>
+      </div>
+    </main>
+    <script type="module" src="../../main.js"></script>
+  </body>
+</html>

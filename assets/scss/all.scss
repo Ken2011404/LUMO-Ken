@@ -1,0 +1,17 @@
+// @import './pages/index.scss';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@173&display=swap");
+@import "bootstrap/scss/functions";
+@import "./helpers/variables";
+// @import './helpers/cutome-btn';
+
+@import "bootstrap/scss/bootstrap";
+
+@import "./helpers/utilities";
+@import "./helpers/color-gradient";
+@import "./layout/nav-tab";
+@import "./component/background";
+@import "./component/nouislider";
+@import "./base/base";
+@import "./pages/chat-room-lilley";
+
+@import "./pages/login";

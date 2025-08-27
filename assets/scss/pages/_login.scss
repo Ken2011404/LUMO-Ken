@@ -1,0 +1,93 @@
+.bg-login {
+  height: 812px;
+  background-image: url("/assets/images/01-onboarding/1x/onboarding-bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.bg-personal {
+  height: 812px;
+  background-image: url("/assets/images/03-Introduction-character/1x/Introduction-bg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.onboarding-CharacterImage {
+  // width: 120%;
+  // height: auto;
+  margin-top: 100px;
+}
+
+.bg-btn {
+  background: $lg-pri;
+}
+.btn-border {
+  border-color: #995ee2;
+}
+// .no-hover {
+//   &:hover {
+//     border: #995ee2;
+//   }
+// }
+.fs-12 {
+  font-size: 12px;
+}
+.mb-391 {
+  margin-bottom: 391px;
+}
+.py-6px {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.btn-disabled-bg-color {
+  background-color: #c1bcbc66;
+}
+
+// .img-box {
+//   width: 67px;
+//   height: 85px;
+//   overflow: hidden;
+// }
+
+// .img-personal {
+// clip-path: inset(39px 37px);
+// width: 141px;
+// height: 163px;
+// display: block;
+// width: 100%;
+// height: 7rem;
+// object-fit: cover;
+// position: absolute;
+// clip: rect(39px, 104px, 124px, 37px);
+// margin-left: -34px;
+// margin-right: -40px;
+// margin-top: -39px;
+// margin-bottom: -39px;
+// }
+.text-position {
+  margin-left: 30.5px;
+}
+
+.text-position-1 {
+  margin-left: 16.5px;
+}
+.img-bottom {
+  margin-left: 63px;
+}
+
+.img-section {
+  border: 1px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  background-color: rgba(170, 152, 237, 0.3);
+}
+.arrowCircleLeft {
+  margin-left: 16px;
+  margin-top: 166px;
+}
+.arrowCircleRight {
+  margin-right: 16px;
+  margin-top: 166px;
+}

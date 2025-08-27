@@ -1,0 +1,62 @@
+$lg-pri: linear-gradient(to right, #ff4edf, #542f99);
+$lg-pri-act: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), $lg-pri;
+$lg-pri-dis: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+  $lg-pri;
+$lg-bg: linear-gradient(#291b53, #763296, #291b53);
+
+//personal 0827
+$personal-mid-div: linear-gradient(
+  to right,
+  rgba(255, 93, 220, 1),
+  rgba(186, 150, 234, 1)
+);
+
+//Intimacy
+$gradient-color-intimacy: linear-gradient(
+  to right,
+  $secondary-400,
+  $secondary-700
+);
+
+//ChatList Introduce card Character card
+$gradient-color-closeLevel: linear-gradient(
+  to right,
+  $primary-400,
+  $secondary-400
+);
+
+//ChatFailed
+$gradient-color-chatfailed: linear-gradient(to right, #7992ff, $secondary-500);
+
+//ChatTemplate
+$gradient-color-chat-template: linear-gradient(
+  to right,
+  #542f99,
+  #ff00e1,
+  #542f99
+);
+
+//CloseLevel
+$gradient-closeLevel: linear-gradient(#fffbb8, #d6a25b);
+
+$supcolor: #d9d9d9;
+
+// test-----
+.gradient-color-intimacy {
+  background: $gradient-color-intimacy;
+}
+.gradient-color-closeLevel {
+  background: $gradient-color-closeLevel;
+}
+.gradient-color-chatfailed {
+  background: $gradient-color-chatfailed;
+}
+.gradient-color-chat-template {
+  background: $gradient-color-chat-template;
+}
+.gradient-closeLevel {
+  background: $gradient-closeLevel;
+}
+.supcolor {
+  background-color: $supcolor;
+}
