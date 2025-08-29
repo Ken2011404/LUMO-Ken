@@ -30,37 +30,37 @@
     height: auto;
     position: relative;
   }
-  .app-wrapper::before {
-    content: "";
-    width: calc(100% + 28px);
-    height: calc(50% + 10px);
-    position: absolute;
-    bottom: calc(0% - 10px);
-    left: 50%;
-    z-index: 90;
-    transform: translate(-50%);
-    background-image: url("/assets/images/StatusBar/iPhone\ 13.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom center;
-    pointer-events: none;
-  }
+  // .app-wrapper::before {
+  //   content: "";
+  //   width: calc(100% + 28px);
+  //   height: calc(50% + 10px);
+  //   position: absolute;
+  //   bottom: calc(0% - 10px);
+  //   left: 50%;
+  //   z-index: 90;
+  //   transform: translate(-50%);
+  //   background-image: url("/assets/images/StatusBar/iPhone\ 13.svg");
+  //   background-repeat: no-repeat;
+  //   background-size: 100%;
+  //   background-position: bottom center;
+  //   pointer-events: none;
+  // }
 
-  .app-wrapper::after {
-    content: "";
-    width: calc(100% + 28px);
-    height: calc(50% + 10px);
-    position: absolute;
-    top: calc(0%);
-    left: 50%;
-    z-index: 90;
-    transform: translate(-50%);
-    background-image: url("/assets/images/StatusBar/HomeIndicator.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top center;
-    pointer-events: none;
-  }
+  // .app-wrapper::after {
+  //   content: "";
+  //   width: calc(100% + 28px);
+  //   height: calc(50% + 10px);
+  //   position: absolute;
+  //   top: calc(0% - 10px);
+  //   left: 50%;
+  //   z-index: 90;
+  //   transform: translate(-50%);
+  //   background-image: url("/assets/images/StatusBar/HomeIndicator.svg");
+  //   background-repeat: no-repeat;
+  //   background-size: 100%;
+  //   background-position: top center;
+  //   pointer-events: none;
+  // }
 }
 
 ul,
